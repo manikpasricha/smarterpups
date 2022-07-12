@@ -1,0 +1,178 @@
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+{% load static %}
+
+<head>
+    <style>
+      div {
+        width: 1500px;
+        text-align: center;
+        margin: auto;
+        }
+
+        .div-1 {
+    	background-color: lightskyblue;
+    }
+
+
+        h1 {color: black;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        h2 {color: blue;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        h3 {color: green;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+        p {font-size: 12px;
+            text-align: center;
+        }
+
+        img {
+            padding: 5px;
+            max-width: 60%;
+
+                }
+        br {
+            line-height: 20px;
+        }
+
+
+/* ---------------------------------------------------------------------------------
+                                container */
+        *{
+        box-sizing: border-box;
+        }
+        .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        }
+
+        .flex-item {
+        padding: 10px;
+        flex: 33.33%;
+        }
+
+
+        /* Responsive layout - makes a one column-layout instead of a two-column layout */
+        @media (max-width: 800px) {
+        .flex-item {
+            flex: 100%;
+        }
+        }
+
+/* -------------------------------------------------------------------------------------------------------         */
+    </style>
+  </head>
+
+  <!-- -------------------------------------------------------------------------------------- -->
+  
+  <body>
+    <title>
+        🐶 Smarter pups, Happier lives!
+    </title>
+
+
+    <div class="div-1">
+        <br>     </br>
+        <h1>
+            Smarter pups, Happier lives!
+        </h1>
+        <br>
+    </div>
+
+    <h2>
+        <br>
+        "If only my pet could understand me!" - All of us pet lovers feel this need on a daily basis. 
+        </br>
+        Well with Smarter Pups, we match you with the best dog trainers to help your pup not only understand your most frequent requests, but also find a way to express its emotions easily. 
+    </h2>
+
+    <br>     </br>
+
+
+    <div class="flex-container">
+        <div class="flex-item"> 
+            <img src="{% static "landingpage/Theo.jpg" %}"  >
+
+        </div>
+
+        <div class="flex-item"> 
+            <h1> Hi, I am Theo!  </h1> 
+            <br> </br> 
+            <h3> I used to poop around a lot. My dad used to get mad at me!  </h3> 
+            <h3> This was until I got trained and became smart with SmarterPups!</h3> 
+            <h3> Now I know where to head when my belly goes uummmmmmm..     </h3> 
+        </div>
+      </div>
+
+      <br>
+    </br>
+
+
+    <div class="flex-container">
+        <div class="flex-item"> 
+            <h3>Mahesh, Trainer for 15 years
+            </h3>            
+            <img src="{% static "landingpage/Mahesh.jpg" %}"  >
+
+        </div>
+
+        <div class="flex-item"> 
+            <h3>Ramesh, Trainer for 25 years
+            </h3>            
+            <img src="{% static "landingpage/Ramesh.jpg" %}">
+        </div>
+
+        <div class="flex-item"> 
+            <h3>Suresh, Trainer for 5 years
+            </h3>            
+            <img src="{% static "landingpage/Suresh.jpg" %}">
+        </div>
+
+        <br> 
+        <button type="button" class="btn btn-primary btn-lg btn-block" href= "https://wa.me/918750057600">Book a session now!</button>
+   <br> 
+   <br> 
+   <br> 
+   <br> 
+
+    <div class="flex-container">
+        <div class="flex-item"> 
+            <h3>Potty training
+            </h3>            
+            <img src="https://us.123rf.com/450wm/pandavector/pandavector1610/pandavector161000314/63719191-pissing-dog-rastr-illustration-icon-in-black-design.jpg">
+        </div>
+
+        <div class="flex-item"> 
+            <h3>Nutrition plans
+            </h3>            
+            <img src="https://cdn-icons-png.flaticon.com/512/2830/2830429.png">
+        </div>
+
+        <div class="flex-item"> 
+            <h3>Instructions training
+            </h3>            
+            <img src="https://cdn4.iconfinder.com/data/icons/man-dog-training-playing/231/dog-activity-006-512.png">
+        </div>
+
+    <p>
+        <br> 
+        <br> 
+
+    ℗ 2022 Smarter Pups Pvt Ltd. A Sushant Lok Production.
+</p>
+ 
+  </body>
